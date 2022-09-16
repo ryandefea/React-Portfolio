@@ -12,8 +12,8 @@ import Footer from './components/footer/Footer';
 const App = () => {
   return (
     <React.Fragment>
-      <Nav />
       <Header />
+      <Nav />
       <About />
       <Experience />
       <Services />

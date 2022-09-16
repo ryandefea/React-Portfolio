@@ -8,10 +8,10 @@ React Portfolio Project
 This project will show relevant programming information about myself. It will also showcase past projects that I have created. This project will also allow users to easily contact me in various ways.
 
 ## **List the absolute minimum features the project requires to meet this purpose or goal:**
-- Full Responsive webpage on any device 
+- Fully Responsive webpage on any device 
 - All components rendering in the DOM
 - Web hosting using netlify or something similar 
-- Full styled using individual style sheets for each component
+- Fully styled using individual style sheets for each component
 
 ## **What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.**
 - React

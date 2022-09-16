@@ -25,6 +25,7 @@ This project will show relevant programming information about myself. It will al
 
 ### **If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.**
 - Allow for users of the website to send me push notifications on my phone. It appears that this may only be possible on android devices but I need to research more. 
+- Have all projects in projects section deployed with gh pages.
 
 ### **What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?**
 - https://www.courier.com/blog/top-6-push-notification-services-for-developers-in-2021/

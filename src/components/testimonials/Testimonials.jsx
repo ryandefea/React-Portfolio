@@ -1,5 +1,5 @@
-import React from 'react'
-import './Testimonials.css'
+import React from 'react';
+import './testimonials.css';
 
 const Testimonials = () => {
   return (
@@ -7,4 +7,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Testimonials;

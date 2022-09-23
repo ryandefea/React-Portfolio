@@ -7,18 +7,21 @@ import RYAN from '../../assets/RYAN.JPG'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+         {/* <div className="header__about">  */}
         <h5>Hello World,</h5>
         <h1>I am Ryan DeFea</h1>
+      <div className="container header__container">
         <h5 className="text-light">Fullstack Web Developer</h5>
         <CTA />
         <HeaderSocials /> 
-
+        <div className="about__me">
         <div className="ryan">
           <img src={RYAN} alt="me" />
         </div>
-
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        {/* </div> */}
       </div>
     </header> 
   )

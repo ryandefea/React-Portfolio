@@ -3,8 +3,23 @@ import './contact.css';
 import {AiOutlineMail} from 'react-icons/ai';
 import {AiOutlineFacebook} from 'react-icons/ai';
 import {TbBrandTelegram} from 'react-icons/tb';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_e4lgeq6', 'template_higkcia', form.current, 'GFmHMNSGDpdLzrjJ3')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
   return (
     <section id='contact'>
       <h5>Say Hello</h5>
@@ -31,7 +46,7 @@ const Contact = () => {
             <a href="https://t.me/flyinryan_d" target=" _blank">Send a message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message" required></textarea>

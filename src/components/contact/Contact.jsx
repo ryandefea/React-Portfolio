@@ -16,21 +16,27 @@ const Contact = () => {
             <AiOutlineMail/>
             <h4>Email</h4>
             <h5>ryan.defea@gmail.com</h5>
-            <a href="mailto:ryan.defea@gmail.com">Send an email</a>
+            <a href="mailto:ryan.defea@gmail.com" target=" _blank">Send an email</a>
           </article>
           <article className="contact__option">
             <AiOutlineFacebook/>
             <h4>Messenger</h4>
             <h5>Ryan DeFea</h5>
-            <a href="https://m.me/ryan.defea">Send a message</a>
+            <a href="https://m.me/ryan.defea" target=" _blank">Send a message</a>
           </article>
           <article className="contact__option">
             <TbBrandTelegram/>
             <h4>Telegram</h4>
             <h5>Ryan DeFea</h5>
-            <a href="https://t.me/flyinryan_d">Send a message</a>
+            <a href="https://t.me/flyinryan_d" target=" _blank">Send a message</a>
           </article>
         </div>
+        <form action="">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="7" placeholder="Your Message"></textarea>
+          <button type="submit" className='btn'>Send Message</button>
+        </form>
       </div>
       </section>
   )

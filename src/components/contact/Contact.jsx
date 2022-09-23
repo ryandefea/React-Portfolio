@@ -2,7 +2,7 @@ import React from 'react';
 import './contact.css';
 import {AiOutlineMail} from 'react-icons/ai';
 import {AiOutlineFacebook} from 'react-icons/ai';
-import {TbBrandTelegram} from 'react-icons/ai';
+import {TbBrandTelegram} from 'react-icons/tb';
 
 const Contact = () => {
   return (
@@ -28,7 +28,7 @@ const Contact = () => {
             <TbBrandTelegram/>
             <h4>Telegram</h4>
             <h5>Ryan DeFea</h5>
-            <a href="">Send a message</a>
+            <a href="https://t.me/flyinryan_d">Send a message</a>
           </article>
         </div>
       </div>

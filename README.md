@@ -82,3 +82,5 @@ Friday 9/23
 10:00 - 11:00 find reference for turn a python file into a .exe file. I want to do this so a small personal project I made can be downloaded from my portfolio page. 
 https://www.geeksforgeeks.org/convert-python-script-to-exe-file/
 11:00 - 1:15 rearrange header section to include about me place holder text. Its really janky right now and the formatting is off but I will come back and fix this later.
+2:00 - 2:20 research how add telegram in contact section. 
+2:20 telegram is now implemented into contact section.

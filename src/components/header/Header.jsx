@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header>
          {/* <div className="header__about">  */}
-        <h5>Hello World,</h5>
-        <h1>I am Ryan DeFea</h1>
       <div className="container header__container">
+        <h5>Hello World</h5>
+        <h5>I am Ryan DeFea</h5>
         <h5 className="text-light">Fullstack Web Developer</h5>
         <CTA />
         <HeaderSocials /> 

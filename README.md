@@ -78,5 +78,7 @@ Friday 9/16
 * 11:00 - Begin building out components
 * 1:00 - fix compiling error by renaming project(still not sure how or why this fixed the problem)
 
-Friday 9/16 10:00 - 11:00 find reference for turn a python file into a .exe file. I want to do this so a small personal project I made can be downloaded from my portfolio page. 
+Friday 9/23 
+10:00 - 11:00 find reference for turn a python file into a .exe file. I want to do this so a small personal project I made can be downloaded from my portfolio page. 
 https://www.geeksforgeeks.org/convert-python-script-to-exe-file/
+11:00 - 1:15 rearrange header section to include about me place holder text. Its really janky right now and the formatting is off but I will come back and fix this later.

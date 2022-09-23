@@ -77,3 +77,6 @@ Friday 9/16
 * 10:00 - Search for references and tutorials for react portfolio page 
 * 11:00 - Begin building out components
 * 1:00 - fix compiling error by renaming project(still not sure how or why this fixed the problem)
+
+Friday 9/16 10:00 - 11:00 find reference for turn a python file into a .exe file. I want to do this so a small personal project I made can be downloaded from my portfolio page. 
+https://www.geeksforgeeks.org/convert-python-script-to-exe-file/

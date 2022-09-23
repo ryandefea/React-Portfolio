@@ -84,3 +84,5 @@ https://www.geeksforgeeks.org/convert-python-script-to-exe-file/
 11:00 - 1:15 rearrange header section to include about me place holder text. Its really janky right now and the formatting is off but I will come back and fix this later.
 2:00 - 2:20 research how add telegram in contact section. 
 2:20 telegram is now implemented into contact section.
+5:00 - 5:45 research about emailjs and how to implement it into proj.
+6:15 emailjs is implemented but I still get an error in the terminal. 

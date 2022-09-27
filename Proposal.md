@@ -19,6 +19,7 @@ This project will show relevant programming information about myself. It will al
 - CSS
 - Figma
 - Netlify
+- EmailJS
 - https://www.youtube.com/watch?v=G-Cr00UYokU&t=8444s
 - https://www.youtube.com/watch?v=hYv6BM2fWd8
 - 

@@ -13,32 +13,40 @@ const Portfolio = () => {
           <div className="portfolio__project-image">
             <h3>Mr. Robogers' Neighborhood</h3>
             <img src={Roboger} alt="roboger" />
+            <div className="portfolio__project-cta">
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            </div>
           </div>
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
             <h3>Mr. Robogers' Neighborhood</h3>
             <img src={Roboger} alt="roboger" />
+            <div className="portfolio__project-cta">
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            </div>
           </div>
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
             <h3>Mr. Robogers' Neighborhood</h3>
             <img src={Roboger} alt="roboger" />
+            <div className="portfolio__project-cta">
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            </div>
           </div>
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
             <h3>Mr. Robogers' Neighborhood</h3>
             <img src={Roboger} alt="roboger" />
+            <div className="portfolio__project-cta">
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            </div>
           </div>
         </article>
       </div>

@@ -88,4 +88,6 @@ https://www.geeksforgeeks.org/convert-python-script-to-exe-file/
 * 6:15 emailjs is implemented but I still get an error in the terminal. 
 
 Friday 9/30
-* 
+* 10:00 - 11:00 fix formatting for about section 
+* 11:00 - 11:30 create layout for experience section 
+* 11:30-  research consistent icons to use for experience section

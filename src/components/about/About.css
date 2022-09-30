@@ -4,6 +4,10 @@
   gap: 15%;
 }
 
+.about__text {
+  text-align: center;
+}
+
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;

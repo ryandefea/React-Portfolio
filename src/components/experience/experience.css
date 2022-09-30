@@ -16,6 +16,12 @@
   display: grid;
   grid-template-columns: 2fr 2fr .5fr;
   row-gap: 3rem;
+  transition: var(--transition);
+}
+
+.experience__content:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .experience__details {

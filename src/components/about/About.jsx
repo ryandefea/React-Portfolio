@@ -6,8 +6,11 @@ import Resume from '../../assets/Ryan DeFea- Resume.pdf'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Hello World,</h5>
-      <h2>I am Ryan DeFea</h2>
+      <div className="about__text">
+      <h3>Hello World,</h3>
+      <h1>I am Ryan DeFea</h1>
+      <h2>Web Developer</h2>
+      </div>
 
       <div className="container about__container">
         <div className="about__me">

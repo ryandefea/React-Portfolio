@@ -1,4 +1,96 @@
+.newHeader {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: var(--color-primary);
+}
+
+
 nav {
+  background: rgba(253, 253, 253, 0.3);
+  width: auto;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rem;
+  display: flex;
+  gap: 2rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+nav a {
+  margin: 0 2rem;
+  /* padding: 0.9rem; */
+  border-radius: 15px 50px 30px 5px;
+  color: var(--color-light);
+}
+
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.newHeader .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px){
+  .newHeader .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .newHeader nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--color-primary);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  .newHeader .responsive_nav{
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a{
+    font-size: 1.5 rem;
+  }
+
+}
+
+/* nav a.active {
+  background: var(--color-light);
+  color: var(--color-white);
+} */
+
+
+/* original nav styles begin nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   display: block;
@@ -20,7 +112,7 @@ nav a {
   padding: 0.9rem;
   /* margin: 1rem;  */
   /* border-radius: 10%; */
-  border-radius: 15px 50px 30px 5px;
+  /* border-radius: 15px 50px 30px 5px;
   display: flex;
   color: var(--color-light);
   font-size: 1.1rem;
@@ -33,4 +125,4 @@ nav a:hover {
 nav a.active {
   background: var(--color-light);
   color: var(--color-white);
-}
+}original nav style end */ 

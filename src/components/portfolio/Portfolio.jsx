@@ -1,6 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import Roboger from '../../assets/roboger.jpg'
+import pyong from '../../assets/pyong.jpg'
+import Pyong from '../../assets/Pyong.exe'
+
 
 const Portfolio = () => {
   return (
@@ -31,10 +34,10 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
-            <h3>Mr. Robogers' Neighborhood</h3>
-            <img src={Roboger} alt="roboger" />
+            <h3>4 Player Pyong</h3>
+            <img src={pyong} alt="pyong" />
             <div className="portfolio__project-cta">
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
+            <a href={Pyong} download className="btn">Download</a>
             <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
             </div>
           </div>

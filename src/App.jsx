@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './components/nav/Nav';
-import Header from './components/header/Header';
+import HeaderSocials from './components/header/HeaderSocials';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
@@ -13,7 +13,7 @@ const App = () => {
     <React.Fragment>
       <Nav />
       <About />
-      <Header />
+      <HeaderSocials />
       <Experience />
       <Portfolio />
       <Contact />

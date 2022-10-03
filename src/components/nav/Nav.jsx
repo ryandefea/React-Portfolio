@@ -21,7 +21,7 @@ const Nav = () => {
       <a href="#">Home</a>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
-      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
       <a href="#contact">Contact</a>
       <button className="nav-btn nav-close-btn" onCLick={showNavbar}>
         <FcServices />

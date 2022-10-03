@@ -1,3 +1,22 @@
+# Portfolio Project 
+
+## By *_Ryan DeFea_*
+
+
+## _Description_
+
+_React application that serves as a way for potential employers to find me, get to know me, look at some of my work, and contact me. 
+
+## _Technologies Used_
+
+*React
+*javaScript
+*HTML
+*CSS
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -91,3 +110,10 @@ Friday 9/30
 * 10:00 - 11:00 fix formatting for about section 
 * 11:00 - 11:30 create layout for experience section 
 * 11:30-  research consistent icons to use for experience section
+
+
+
+## _License_
+[MIT](License)
+
+Copyright (c) 2022 Ryan DeFea

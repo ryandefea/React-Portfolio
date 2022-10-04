@@ -13,8 +13,8 @@ const App = () => {
     <React.Fragment>
       <Nav />
       <About />
-      <HeaderSocials />
       <Experience />
+      <HeaderSocials />
       <Portfolio />
       <Contact />
       <Footer />

@@ -7,6 +7,8 @@ import {SiFuturelearn} from 'react-icons/si';
 import {FcServices} from 'react-icons/fc';
 import {AiFillPhone} from 'react-icons/ai';
 import {useState} from 'react';
+import {FaBars, FaTimes} from 'react-icons/fa';
+
 
 
 const Nav = () => {
@@ -24,11 +26,11 @@ const Nav = () => {
       <a href="#portfolio">Projects</a>
       <a href="#contact">Contact</a>
       <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-        <FcServices />
+        <FaTimes/>
       </button>
     </nav>
     <button className="nav-btn" onClick={showNavbar}>
-      <AiFillPhone />
+      <FaBars/>
     </button>
     </header>
   );

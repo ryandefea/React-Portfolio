@@ -2,11 +2,10 @@
 .newHeader {
   display: flex; 
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100px;
   padding: 0 2rem;
   background-color: var(--color-primary);
-  
 }
 
 
@@ -40,7 +39,7 @@ nav a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.newHeader > .nav-btn {
+.newHeader .nav-btn {
   padding: 5px;
   cursor: pointer;
   background: transparent;
@@ -52,9 +51,10 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 1024px){
-  .newHeader > .nav-btn {
+  .newHeader .nav-btn {
     visibility: visible;
     opacity: 1;
+    
   }
 
   .newHeader nav{

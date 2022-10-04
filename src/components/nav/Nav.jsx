@@ -23,7 +23,7 @@ const Nav = () => {
       <a href="#experience">Experience</a>
       <a href="#portfolio">Projects</a>
       <a href="#contact">Contact</a>
-      <button className="nav-btn nav-close-btn" onCLick={showNavbar}>
+      <button className="nav-btn nav-close-btn" onClick={showNavbar}>
         <FcServices />
       </button>
     </nav>

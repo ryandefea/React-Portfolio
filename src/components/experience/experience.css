@@ -1,6 +1,6 @@
 .experience__container {
   display: grid;
-  max-width: 45%;
+  max-width: 55%;
   gap: 2rem;
   /* align-items: center;  */
 }

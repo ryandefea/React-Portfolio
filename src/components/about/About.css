@@ -20,7 +20,6 @@
   );
   display: grid;
   place-items: center;
-
 }
 
 .about__me-image {
@@ -30,11 +29,10 @@
   transition: var(--transition);
   max-width: 90%;
   max-height: 90%;
-
 }
 
 .about__me-image:hover {
-  transform: rotate(0);
+  transform: rotate(2deg);
 }
 
 .about__content p {
@@ -65,15 +63,6 @@
     width: 65%;
     margin: 0 auto 3rem;
   }
-
-  .about__cards {
-    text-align: center;
-  }
-
-  /* .about__content {
-    text-align: center;
-  } */
-
   .about__content p {
     margin: 1.5 0;
   }

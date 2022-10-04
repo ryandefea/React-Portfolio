@@ -1,8 +1,10 @@
-import React from 'react'
-import './portfolio.css'
-import Roboger from '../../assets/roboger.jpg'
-import pyong from '../../assets/pyong.jpg'
-import Pyong from '../../assets/Pyong.exe'
+import React from 'react';
+import './portfolio.css';
+import Roboger from '../../assets/roboger.jpg';
+import pyong from '../../assets/pyong.jpg';
+import Pyong from '../../assets/Pyong.exe';
+import Pierre from '../../assets/Pierre.jpg';
+import Larry from '../../assets/larry.jpg';
 
 
 const Portfolio = () => {
@@ -24,11 +26,11 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
-            <h3>Mr. Robogers' Neighborhood</h3>
-            <img src={Roboger} alt="roboger" />
+            <h3>Pierre's Sweet And Savory Treats</h3>
+            <img src={Pierre} alt="pierre" />
             <div className="portfolio__project-cta">
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            <a href="https://github.com/ryandefea/Pierre-s-Sweet-and-Savory-Treats" className="btn" target="_blank">Github</a>
+            <a href="https://github.com/ryandefea/Pierre-s-Sweet-and-Savory-Treats" className="btn" target="_blank">Live Site</a>
             </div>
           </div>
         </article>
@@ -44,11 +46,11 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__project">
           <div className="portfolio__project-image">
-            <h3>Mr. Robogers' Neighborhood</h3>
-            <img src={Roboger} alt="roboger" />
+            <h3>Larry's Gym</h3>
+            <img src={Larry} alt="larry" />
             <div className="portfolio__project-cta">
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Github</a>
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
+            <a href="https://github.com/ryandefea/Fitness-App" className="btn" target="_blank">Github</a>
+            <a href="https://github.com/ryandefea/Fitness-App" className="btn" target="_blank">Live Site</a>
             </div>
           </div>
         </article>

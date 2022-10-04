@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import RYAN from '../../assets/Ryan.JPG';
+import RYANEW from '../../assets/Ryan-nobackground.jpg';
 import Resume from '../../assets/Ryan DeFea- Resume.pdf'
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={RYAN} alt="ryan" />
+            <img src={RYANEW} alt="ryan" />
           </div>
         </div>
 

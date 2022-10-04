@@ -32,12 +32,13 @@
 }
 
 .about__me-image:hover {
-  transform: rotate(2deg);
+  transform: rotate(2deg); 
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1.2rem;
 }
 
 /* Tablet Media Queries */

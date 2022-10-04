@@ -26,11 +26,11 @@ const About = () => {
               I am a recent graduate of the coding bootcamp Epicodus. During my
               6 months of learning at Epicodus I was able to discover and
               improve my skills as a fullstack developer. While at Epicodus I
-              was fully immersed in the world of programming and some pretty
+              was fully immersed in the world of programming and met some pretty
               cool people along the way.
               <br />
               <br />
-              Previously I was a public school teacher for 5 years. Mostly
+              Previously, I was a public school teacher for 5 years. Mostly
               teaching 6th grade earth & space science. I discovered programming
               earlier this year and haven't looked back since. Making things on
               the internet is fun.

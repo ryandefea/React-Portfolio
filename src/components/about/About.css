@@ -22,6 +22,12 @@
   place-items: center;
 }
 
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;

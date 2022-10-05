@@ -8,7 +8,7 @@ import { FcServices } from "react-icons/fc";
 import { AiFillPhone } from "react-icons/ai";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import RD from "../../assets/RD.svg";
+import RD from "../../assets/RD.svg";
 
 const Nav = () => {
   const navRef = useRef();
@@ -18,7 +18,7 @@ const Nav = () => {
   };
   return (
     <header className="newHeader">
-      {/* <img className="logo" src={RD} alt="rd" /> */}
+      <img className="logo" src={RD} alt="rd" />
       <nav ref={navRef}>
         <a href="#">Home</a>
         <a href="#about">About</a>

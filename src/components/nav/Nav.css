@@ -9,10 +9,10 @@
   background-color: var(--color-bg-variant);
 }
 
-.logo {
-  margin-right: auto;
-}
 
+.logo {
+  width: auto;
+}
 
 /* nav {
   background: rgba(253, 253, 253, 0.3);

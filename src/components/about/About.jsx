@@ -42,9 +42,9 @@ const About = () => {
               gaming, cooking, lifting weights, binge watching Youtube, and
               rewatching episodes of the Sopranos.
             </p>
-            <a href={Resume} download className="btn">
+            {/* <a href={Resume} download className="btn">
               Download Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

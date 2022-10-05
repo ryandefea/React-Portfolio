@@ -2,10 +2,15 @@
 .newHeader {
   display: flex; 
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100px;
   padding: 0 2rem;
+  /* padding: 30px 10%; */
   background-color: var(--color-bg-variant);
+}
+
+.logo {
+  margin-right: auto;
 }
 
 
@@ -27,7 +32,8 @@
 } */  
 
 nav a {
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
+  margin: 0 3rem;
   padding: 0.9rem; 
   border-radius: 15px 50px 30px 5px;
   color: var(--color-light);

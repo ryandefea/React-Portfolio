@@ -26,6 +26,12 @@ const Contact = () => {
       <h2>Contact Info</h2>
 
       <div className="container contact__container">
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+          <button type="submit" className='btn'>Send Message</button>
+        </form>
         <div className="contact__options">
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon"/>
@@ -46,12 +52,6 @@ const Contact = () => {
             <a href="https://t.me/flyinryan_d" target=" _blank">Send a message</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
-          <button type="submit" className='btn'>Send Message</button>
-        </form>
       </div>
       </section>
   )

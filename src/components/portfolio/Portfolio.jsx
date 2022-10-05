@@ -39,8 +39,8 @@ const Portfolio = () => {
             <h3>4 Player Pyong</h3>
             <img src={pyong} alt="pyong" />
             <div className="portfolio__project-cta">
+            <a href="https://github.com/ryandefea/Pyong-Game" className="btn" target="_blank">Github</a>
             <a href={Pyong} download className="btn">Download</a>
-            <a href="https://github.com/ryandefea/Mr.-Robogers-Neighborhood" className="btn" target="_blank">Live Site</a>
             </div>
           </div>
         </article>

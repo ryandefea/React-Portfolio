@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-primary);
+  background: var(--color-bg-variant);
   padding: 3rem 0;
   text-align: center;
   font-size: 1em;  
@@ -10,12 +10,26 @@ footer a {
   color: var(--color-bg);
 }
 
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
 .permalinks {
   display: flex;
   flex-wrap: none;
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .footer__copyright {

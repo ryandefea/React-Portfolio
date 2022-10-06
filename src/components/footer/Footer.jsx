@@ -3,6 +3,7 @@ import './footer.css';
 import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
 import {BsController} from 'react-icons/bs';
+import {BiDumbbell} from 'react-icons/bi';
 
 const Footer = () => {
   return (
@@ -21,6 +22,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/ryan-defea/" target=" _blank"><BsLinkedin/></a>
       <a href="https://github.com/ryandefea" target=" _blank"><BsGithub/></a>
       <a href="https://cod.tracker.gg/warzone/profile/atvi/flyinryan_d%237360883/overview?mode=br" target=" _blank"><BsController/></a>
+      <a href="https://www.openpowerlifting.org/u/ryandefea" target=" _blank"><BiDumbbell/></a>
       </div>
 
       <div className='footer__copyright'>
